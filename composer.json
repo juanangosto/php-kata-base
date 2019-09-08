@@ -1,0 +1,24 @@
+{
+  "name": "juan/php-kata-base",
+  "description": "Base project for katas wit PHP",
+  "authors": [
+    {
+      "name": "Juan Angosto",
+      "email": "juan@juanangosto.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  }
+}
